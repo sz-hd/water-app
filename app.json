@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/my/my",
     "pages/logs/logs"
   ],
   "window": {
@@ -26,13 +27,19 @@
         "pagePath": "pages/index/index",
         "iconPath": "image/cart.png",
         "selectedIconPath": "image/cart_hover.png",
-        "text": "购物车"
+        "text": "快速下单"
       },
       {
         "pagePath": "pages/index/index",
         "iconPath": "image/mytb.png",
         "selectedIconPath": "image/mytb_hover.png",
-        "text": "我的淘宝"
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "image/mytb.png",
+        "selectedIconPath": "image/mytb_hover.png",
+        "text": "我的"
       }
     ]
   },

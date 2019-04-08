@@ -1,13 +1,25 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<view class="index">
+  <view class="banner">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image class="banner-img" src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+  <view class="jpsel">精品推荐</view>
+
+  <scroll-view>
+    <view style="">
+      <text>家庭用水18.9L/桶</text>
+      <image class="water" src="../../image/water01.jpg"></image>
+      <text>家庭用水18.9L/桶</text>
+      <image class="water" src="../../image/water01.jpg"></image>
+      <text>家庭用水18.9L/桶</text>
+      <image class="water" src="../../image/water01.jpg"></image>
+      
+    </view>
+  </scroll-view>
 </view>
