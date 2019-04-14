@@ -13,11 +13,7 @@
 
   <scroll-view>
     <view style="">
-      <text>家庭用水18.9L/桶</text>
-      <image class="water" src="../../image/water01.jpg"></image>
-      <text>家庭用水18.9L/桶</text>
-      <image class="water" src="../../image/water01.jpg"></image>
-      <text>家庭用水18.9L/桶</text>
+      <text>家庭18.9L/桶</text>
       <image class="water" src="../../image/water01.jpg"></image>
       
     </view>

@@ -5,7 +5,6 @@
     font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
     flex: 1;
     min-height: 100%;
-    font-size: 32rpx;
 }
 
 .banner{

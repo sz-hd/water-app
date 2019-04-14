@@ -1,13 +1,15 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/xorder/xorder",
+    "pages/order/order",
     "pages/my/my",
     "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#00b26a",
-    "navigationBarTitleText": "山泉水",
+    "navigationBarTitleText": "唐山泉",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true
   },
@@ -24,13 +26,13 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/xorder/xorder",
         "iconPath": "image/cart.png",
         "selectedIconPath": "image/cart_hover.png",
         "text": "快速下单"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/order/order",
         "iconPath": "image/mytb.png",
         "selectedIconPath": "image/mytb_hover.png",
         "text": "订单"
