@@ -1,0 +1,14 @@
+.orderinx{
+  border-width: 1rpx;
+  border: red;
+  border-style: solid;
+  margin:10rpx 10rpx 10rpx 10rpx;
+  border-radius:5px;
+}
+
+.ddxx{
+  font-size: 16px;
+  font-weight: 900;
+  float:left;
+  margin: 10rpx 10rpx 10rpx 10rpx;
+}

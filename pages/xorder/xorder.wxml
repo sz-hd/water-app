@@ -1,0 +1,11 @@
+<view class="container">
+  <view style="border-width:5rpx;" class="orderinx">
+    <view class="weui-cells__title"><text style="font-size:20px;font-weight:900;">订单信息</text></view>
+
+    <view class="weui-cells weui-cells_after-title">
+       <view class="weui-cell">收货地址 </view>
+       <view class="weui-cell">收货地址1 </view>
+    </view>
+   
+  </view>
+</view>
